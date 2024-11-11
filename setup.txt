@@ -12,4 +12,11 @@ git config --list
   git config --global user.email
 
 
+# Setup the PAT (Personal access token). This is because password authentication was 
+# removed on August 13, 2021. Use the PAT in the password section.
+  
+  # To store the PAT permanently.
+  git config --global credential.helper store
+
+
 
