@@ -1,0 +1,15 @@
+
+# To clone the repository
+git clone https://github.com/username/repo-name.git
+
+# To set the github variables
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+# To check current values for the github variables
+git config --list
+  git config --global user.name
+  git config --global user.email
+
+
+
