@@ -19,4 +19,32 @@ git config --list
   git config --global credential.helper store
 
 
+# Steps to setup the IntelliJ environment
+# What is Groovy DSL (Domain specific language)
+The Groovy DSL uses the Groovy programming language to define the build script. It is the traditional and most commonly use GRADLE DSL
+- Other is Kotlin DSL
+
+
+
+
+# Project related setup
+
+1. The group is com.codemaster.java
+
+2. Gradle distribution: Wrapper
+- This is done so that all the developers use the same version.
+
+3. Adding the gradle.properties file.
+- There was too much noise in the console
+- Add the following line. (There are other ways too)
+org.gradle.warning.mode=none
+org.gradle.logging.level=quiet
+
+
+# Project - Tests setup
+- The packages in the test folder should mimic the ones in the CodingFolder
+- The name of the Test is <Name of the Class>Test.java
+
+
+
 
